@@ -46,7 +46,7 @@ export default {};
 }
 
 .recent-img {
-  margin: 0px 60px;
+  margin: 0px 10px;
 }
 
 .recent-img img {

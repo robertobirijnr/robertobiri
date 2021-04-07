@@ -3,6 +3,7 @@
   <index/>
   <skills/>
   <recent-projects/>
+  <contact-us/>
 </div>
 </template>
 
@@ -11,8 +12,9 @@
 import Skills from '../components/skills.vue'
 import Index from '../components/header/index.vue'
 import RecentProjects from '../components/recentProjects.vue'
+import ContactUs from '../components/contact-us.vue'
 export default {
-  components: { Skills, Index,RecentProjects },}
+  components: { Skills, Index,RecentProjects, ContactUs },}
 </script>
 
 <style>
