@@ -1,26 +1,18 @@
 <template>
- <section id="main">
-  <the-nav-bar/>
-  <hero-banner/>
- </section>
+<div>
+  <index/>
+  <skills/>
+</div>
 </template>
 
 <script>
-import HeroBanner from '../components/Hero-banner.vue'
-import TheNavBar from '../components/TheNavBar.vue'
+
+import Skills from '../components/skills.vue'
+import Index from '../components/header/index.vue'
 export default {
-  components: { TheNavBar,HeroBanner },}
+  components: { Skills, Index },}
 </script>
 
 <style>
-
-#main{
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
-
-
 
 </style>
