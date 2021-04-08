@@ -13,7 +13,7 @@
           </div>
           <div class="skill-text">
             <strong>JavaScript</strong>
-            <p>I have 2 years Expirence in JavaScript.</p>
+            <p>I'm a JavaScript developer. I developed almost my applications in JavaScript</p>
           </div>
         </div>
 
@@ -23,7 +23,7 @@
           </div>
           <div class="skill-text">
             <strong>Vue js & Nuxt js</strong>
-            <p>I have 2 years Expirence in JavaScript.</p>
+            <p>I have Expirence with Vue js, vuex and Nuxt js. I prefer building most of my applications using these technologies</p>
           </div>
         </div>
 
@@ -32,8 +32,8 @@
             <i id="vue" class="fab fa-node-js"></i>
           </div>
           <div class="skill-text">
-            <strong>Node Js</strong>
-            <p>I have 2 years Expirence in JavaScript.</p>
+            <strong>Node Js & mongoDB</strong>
+            <p>I have 2 years Expirence in Node js and mongodb database.</p>
           </div>
         </div>
 
@@ -43,7 +43,7 @@
           </div>
           <div class="skill-text">
             <strong>React js & Next js</strong>
-            <p>I have 2 years Expirence in JavaScript.</p>
+            <p>I consider myself a learner, a life-long learner.</p>
           </div>
         </div>
 
@@ -53,7 +53,7 @@
           </div>
           <div class="skill-text">
             <strong>WordPress</strong>
-            <p>I have 2 years Expirence in JavaScript.</p>
+            <p>I have 4 years Expirence in wordpress customization and development.</p>
           </div>
         </div>
       </div>
