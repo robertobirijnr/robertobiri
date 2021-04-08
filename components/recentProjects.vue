@@ -1,10 +1,6 @@
 <template>
   <section id="recent">
     <h2>My Projects</h2>
-    <!-- <div class="recent-heading">
-            <span>Recent</span>
-            <h3>Recent Doing Projects</h3>
-        </div> -->
     <div class="recent-img">
       <img src="../assets/codeboothonline.png" alt="" />
     </div>
@@ -79,5 +75,12 @@ h2 {
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 3rem;
+}
+
+
+@media (max-width:720px){
+  #recent{
+    margin-top: 10rem;
+  }
 }
 </style>

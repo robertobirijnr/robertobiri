@@ -64,7 +64,9 @@
         >African Continental Free Trade Area (AfCFTA) Project</strong
       >
       <br />
-      <a class="recent-btn" href="https://test.afcfta.app/" target="_blank">View Live</a>
+      <a class="recent-btn" href="https://test.afcfta.app/" target="_blank"
+        >View Live</a
+      >
     </div>
   </section>
 </template>
@@ -189,5 +191,55 @@ export default {};
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 1140px) {
+  .skill-img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  #skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 40px;
+  }
+
+  .afcfta {
+    padding-left: 0rem;
+    margin-top: 5rem;
+  }
+
+  a.recent-btn {
+    text-align: center;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  .skill-img {
+    padding: 0px 15px;
+    width: 500px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .skill-img {
+    width: auto;
+    height: 600px;
+    margin-right: 2.5rem;
+  }
+
+   a.recent-btn {
+    text-align: center;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+  }
+
+
 }
 </style>

@@ -29,7 +29,6 @@ export default {};
 
 img {
   border-radius: 50%;
-  
 }
 
 .hero-image {
@@ -83,5 +82,85 @@ a {
 .port-btn:hover {
   background-color: #23cdaf;
   transition: all ease 0.2s;
+}
+
+@media (max-width: 1140px) {
+  .hero {
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 400px;
+    height: 400px;
+  }
+
+  .hero-text,
+  .hero-image {
+    margin: 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .port-btn {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #1db096;
+    border-radius: 20px;
+    box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
+    margin-top: 2.5rem;
+    margin-left: 7rem;
+  }
+
+  .hero-text h1 {
+    font-size: 3.5rem;
+    color: #1c3548;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+    padding-left: 7rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero-image {
+    display: none;
+  }
+
+  .hero-text {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+    color: #1c3548;
+    margin: 0px 0px 10px 0px;
+    line-height: 50px;
+    padding-left: 0px;
+  }
+
+  .port-btn {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #1db096;
+    border-radius: 20px;
+    box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
+    margin-top: 2.5rem;
+    margin-left: 0px;
+  }
 }
 </style>

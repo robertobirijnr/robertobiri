@@ -98,4 +98,10 @@ p {
   font-weight: 700;
   letter-spacing: 1px;
 }
+
+@media (max-width:720px){
+  .contact-text{
+    margin-left: 2rem;
+  }
+}
 </style>
